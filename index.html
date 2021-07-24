@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <script type="text/javascript" src="file.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body> 
+    <div class="container">
+        <div class="row">
+            <div class="col-5 align-self-center">
+                <h2 style="text-shadow: 1px 1px 4px grey;"><strong>Enter Your Details</strong></h2><br><br>
+                <form class="form" id="Details">
+                  <input type="text" id="name" name="name"placeholder="Name" required><br><br>
+                  <input type="text" id="about"name="about" placeholder="About" required ><br><br>
+                  <input type="text" id="address"name="address" placeholder="Address" required><br><br>
+                  <input type="text" id="phone no." name="phone no" placeholder="Phone No." required><br><br>
+                  <input type="email" id="email" name="email" placeholder="Email"required><br><br>
+                  <input type="text" id="college" name="college"placeholder="College" required><br><br>
+                  <input type="button" value="Submit" class="submitbtn" id="btnSubmit" onclick="formvariables()">
+                </form>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-6">
+              <h2 style="color:black;text-align:center;text-shadow: 1px 1px 4px grey;"><strong>Your Details</strong></h2><br><br>
+              <div id="box1" class="row">
+                <div class="col">
+                  <div id="nam">
+                    <h5>Name:</h5>
+                  </div>
+                  <div id="nas">
+                    <h5 id="p1"></h5>
+                  </div>
+                </div>
+              </div>
+              <div id="box2" class="row">
+                <div class="col">
+                  <div id="abt">
+                    <h5>About:</h5>
+                  </div>
+                  <div id="aabt">
+                    <h5 id="p2"></h5>
+                  </div>
+                </div>
+              </div>
+              <div id="box3" class="row">
+                <div class="col">
+                  <div id="add">
+                    <h5>Address:</h5>
+                  </div>
+                  <div id="aadd">
+                    <h5 id="p3"></h5>
+                  </div>
+                </div>
+              </div>
+              <div id="box4" class="row">
+                <div class="col">
+                  <div id="phn">
+                    <h5>Phone No:</h5>
+                  </div>
+                  <div id="aphn">
+                    <h5 id="p4"></h5>
+                  </div>
+                </div>
+              </div>
+              <div id="box5" class="row">
+                <div class="col">
+                  <div id="ema">
+                    <h5>Email:</h5>
+                  </div>
+                  <div id="aema">
+                    <h5 id="p5"></h5>
+                  </div>
+                </div>
+              </div>
+              <div id="box6"c lass="row">
+                <div class="col">
+                  <div id="clg">
+                    <h5>College:</h5>
+                  </div>
+                  <div id="aclg">
+                    <h5 id="p6"></h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>        
+</body>
+</html>
